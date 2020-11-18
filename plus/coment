@@ -1,0 +1,18 @@
+   //     const seachImg = document.querySelectorAll('main article img');
+    //     const arrayResults = [...seachImg];
+
+    //     const listImg= arrayResults.map(img=>{
+    //         return img.src
+
+    //     })
+        
+    //  return listImg
+
+    
+
+    // fs.writeFile('instagram.json',JSON.stringify(listImg,null,2),err=>{
+    //     if(err) throw new Error('something sent wrong');
+    //     console.log('well done')
+    // })
+
+    // await browser.close();

@@ -1,0 +1,11 @@
+[
+  {
+    "paragraphi": "Uma brecha em um recurso do Nubank expôs nome e CPF de alguns clientes no Google. O link obtido na ferramenta 'Cobrar' podia ser indexado pelo Google e permitia coletar dados dos usuários."
+  },
+  {
+    "paragraphi": "As informações expostas não permitem roubo direto de dinheiro das contas dos clientes nem clonagem de cartões. Ter em mãos uma combinação válida de nome e CPF pode ser útil para outros tipos de fraudes."
+  },
+  {
+    "paragraphi": "O Nubank diz que os especialistas da empresa constataram que os links apresentados pelo Google tinham origem em outros websites indexados na internet. Para melhorar esse controle, foram feitas modificações na aplicação e solicitado o bloqueio desse tipo de resultado a partir do Google."
+  }
+]
