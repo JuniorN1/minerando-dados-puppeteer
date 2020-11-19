@@ -85,9 +85,58 @@ body{
    
  }
  main article .videoList{
-    padding:50px 100px;  
+
+  
+    width: 20%;
+    height: 10%;
+    border: none;
+    padding:10px;
    
   
     
     
   }
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  
+#paginacao ul {   
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;  
+  
+  
+}
+#paginacao ul li{
+   
+    list-style:none;
+  
+
+}
+#paginacao ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 50px;   
+    width: 50px;
+    margin-right:10px; 
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s ;
+    border-radius: 10px;
+    color:#fff;
+}
+
+#paginacao ul li a:hover{
+    background-color: #fff;
+    cursor: pointer;   
+    transition: 1s;
+    color :rgb(68, 92, 196)
+ 
+   
+ }
