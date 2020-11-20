@@ -65,11 +65,12 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+ 
  }
  main article{
     display: flex;  
     align-items: center;
-    align-items: center;  
+  
     background-color: #b3cdd1;
      height: 100%;    
      border-radius: 10px;
@@ -77,24 +78,42 @@ body{
      border: 1px #000 solid;
      width: 80%;
  }
-
+ main article  .list{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  
+ }
  main article .imgList{
-    padding:20px;     
+    padding:10px;
     width: 150px;
     height: 150px;
+    border-radius: 30px;
    
  }
  main article .videoList{
 
+    padding-left:10%;
   
-    width: 20%;
-    height: 10%;
+    border-radius: 30px;
+    width: 250px;
+    height: 200px;
     border: none;
-    padding:10px;
-   
   
     
-    
+  }
+main article div .teste{
+    border-radius: 10px;
+    display:flex;
+    background-image: url('../img/help.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80vw;
+    height: 70vh;
+    border: none;
+
+
   }
   footer{
     display: flex;
@@ -102,41 +121,21 @@ body{
     align-items: center;
   }
 
-  
-#paginacao ul {   
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;  
-  
-  
-}
-#paginacao ul li{
-   
-    list-style:none;
-  
+  footer button{
+      margin-top: 20px;
+      border:none;
+      border-radius: 10px;
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: 1s ;
+      background-color: #00BFFF;
+      color:#fff;
 
-}
-#paginacao ul li a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    height: 50px;   
-    width: 50px;
-    margin-right:10px; 
-    font-size: 20px;
-    font-weight: bold;
-    transition: 1s ;
-    border-radius: 10px;
-    color:#fff;
-}
-
-#paginacao ul li a:hover{
-    background-color: #fff;
-    cursor: pointer;   
-    transition: 1s;
-    color :rgb(68, 92, 196)
- 
-   
- }
+  }
+  footer button:hover{
+      background-color: #fff;
+      color :rgb(68, 92, 196);
+      cursor: pointer;
+  }
